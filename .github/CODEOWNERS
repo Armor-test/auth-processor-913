@@ -1,0 +1,38 @@
+# CODEOWNERS file for auth-processor-913
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-logging @Armor-test/dept-security @Armor-test/squad-cache
+
+# Directory ownership
+/app/ @Armor-test/dept-automation @Armor-test/squad-cache
+/helpers/ @Armor-test/team-logging @Armor-test/squad-research
+/lib/ @Armor-test/grp-search @Armor-test/dept-notifications @Armor-test/squad-database
+/examples/ @Armor-test/dept-identity @Armor-test/team-security @Armor-test/team-frontend
+/core/ @Armor-test/squad-cache @Armor-test/squad-performance
+/deploy/ @Armor-test/unit-design @Armor-test/squad-database @Armor-test/team-reporting
+/api/ @Armor-test/dept-data @Armor-test/dept-notifications @Armor-test/dept-ui
+/common/ @Armor-test/unit-design @Armor-test/squad-ml
+/shared/ @Armor-test/team-reporting @Armor-test/team-notifications @Armor-test/squad-reporting
+/tools/ @Armor-test/squad-database @Armor-test/squad-cloud @Armor-test/squad-ux
+/security/ @Armor-test/grp-search @Armor-test/team-notifications
+/build/ @Armor-test/dept-billing @Armor-test/grp-search
+/internal/ @Armor-test/grp-storage @Armor-test/team-core
+
+# File type ownership
+*.php @Armor-test/team-frontend @Armor-test/team-reporting @Armor-test/grp-api
+*.h @Armor-test/dept-release @Armor-test/unit-design
+*.css @Armor-test/team-reporting @Armor-test/team-logging @Armor-test/squad-qa
+*.config @Armor-test/unit-design @Armor-test/squad-frontend
+*.cpp @Armor-test/team-governance @Armor-test/squad-research @Armor-test/grp-reporting
+*.tf @Armor-test/squad-product @Armor-test/team-security @Armor-test/grp-api
+*.yml @Armor-test/dept-security @Armor-test/grp-ui
+*.md @Armor-test/dept-reporting @Armor-test/squad-ml
+*.scala @Armor-test/dept-identity @Armor-test/grp-storage
+*.cs @Armor-test/team-notifications @Armor-test/team-governance @Armor-test/squad-ml
+*.rs @Armor-test/squad-performance @Armor-test/squad-search @Armor-test/team-frontend
+*.ts @Armor-test/team-reporting @Armor-test/squad-performance @Armor-test/dept-data
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
